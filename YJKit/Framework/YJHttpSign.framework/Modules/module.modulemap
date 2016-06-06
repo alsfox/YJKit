@@ -1,0 +1,6 @@
+framework module YJHttpSign {
+  umbrella header "YJHttpSign.h"
+
+  export *
+  module * { export * }
+}

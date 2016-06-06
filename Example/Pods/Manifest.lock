@@ -1,0 +1,38 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - YJKit (0.1.0):
+    - FMDB (= 2.6.2)
+    - YYModel
+    - YYText
+    - YYWebImage
+  - YYCache (1.0.3)
+  - YYImage (1.0.2):
+    - YYImage/Core (= 1.0.2)
+  - YYImage/Core (1.0.2)
+  - YYModel (1.0.3)
+  - YYText (1.0.5)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - YJKit (from `../`)
+
+EXTERNAL SOURCES:
+  YJKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  YJKit: 24665791c093d1ce1499e86621214dfcbfe8e4ee
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYImage: 2cc79ed49b9549b71c6715cefe7b0f5ab3d33abf
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
+
+PODFILE CHECKSUM: 0f325fe1903f023de4a3be49b19f34ee84517a33
+
+COCOAPODS: 1.0.0
