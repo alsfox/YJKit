@@ -10,6 +10,6 @@
 
 @interface UIImageView (HHExtension)
 
-- (void) yj_setWebImageWithURL:(NSString * _Nonnull)urlStr placeholder:(NSString * _Nullable) imageName;
+- (void) zyj_setWebImageWithURL:(NSString * _Nonnull)urlStr placeholder:(NSString * _Nullable) imageName;
 
 @end

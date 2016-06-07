@@ -16,8 +16,8 @@
  *  @param urlStr    网络地址
  *  @param imageName 占位图片
  */
-- (void) yj_setWebImageWIthURLStr: (NSString * _Nonnull) urlStr placeholder: (NSString * _Nullable) imageName;
+- (void) zyj_setWebImageWIthURLStr: (NSString * _Nonnull) urlStr placeholder: (NSString * _Nullable) imageName;
 
-- (void) yj_setWebImageWIthURLStr: (NSString * _Nonnull) urlStr forState: (UIControlState) state placeholder: (NSString * _Nullable) imageName;
+- (void) zyj_setWebImageWIthURLStr: (NSString * _Nonnull) urlStr forState: (UIControlState) state placeholder: (NSString * _Nullable) imageName;
 
 @end

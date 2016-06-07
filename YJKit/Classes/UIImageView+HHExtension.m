@@ -11,7 +11,7 @@
 
 @implementation UIImageView (HHExtension)
 
-- (void) yj_setWebImageWithURL:(NSString * _Nonnull)urlStr placeholder:(NSString * _Nullable) imageName {
+- (void) zyj_setWebImageWithURL:(NSString * _Nonnull)urlStr placeholder:(NSString * _Nullable) imageName {
     [self yy_setImageWithURL:[NSURL  URLWithString:urlStr] placeholder:[UIImage imageNamed:imageName]];
 }
 
